@@ -21,7 +21,7 @@ class Job {
     }
 }
 
-public class tp_20160807018 {
+public class CPUScheduling {
 
     static String input_file_name;
     int TIME = 0;
@@ -31,7 +31,7 @@ public class tp_20160807018 {
 
     public static void main(String[] args) {
 
-        tp_20160807018 object = new tp_20160807018();
+        CPUScheduling object = new CPUScheduling();
         if (args.length == 1) {
             input_file_name = args[0];
             object.readFile(input_file_name);
@@ -40,7 +40,7 @@ public class tp_20160807018 {
 
         } else {
             System.out.println("Please enter a valid argument!");
-            System.out.println("Run format: java tp_20160807018 your_file_name");
+            System.out.println("Run format: java CPUScheduling your_file_name");
             System.exit(0);
         }
     }
